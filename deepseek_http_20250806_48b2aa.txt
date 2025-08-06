@@ -1,0 +1,7 @@
+POST http://localhost:5000/api/trade
+Content-Type: application/json
+
+{
+  "direction": "BUY",
+  "lotSize": 0.1
+}
